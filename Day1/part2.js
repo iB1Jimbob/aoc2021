@@ -1,6 +1,5 @@
 const fs = require('fs');
-let input = fs.readFileSync('./input.txt','utf8');
-input = input.split('\n');
+let input = fs.readFileSync('./input.txt','utf8').split('\n');
 for (let i = 0;i<input.length;i++) {
     input[i] = parseFloat(input[i])
 }
